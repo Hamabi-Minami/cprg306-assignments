@@ -19,6 +19,18 @@ export default function Home() {
                 <li className="list-unstyled">
                     <a href={"/week-6"} className="text-blue-500 underline">Go to Week-6 Page</a>
                 </li>
+                <li className="list-unstyled">
+                    <a href={"/week-7"} className="text-blue-500 underline">Go to Week-7 Page</a>
+                </li>
+                <li className="list-unstyled">
+                    <a href={"/week-8"} className="text-blue-500 underline">Go to Week-8 Page</a>
+                </li>
+                <li className="list-unstyled">
+                    <a href={"/week-9"} className="text-blue-500 underline">Go to Week-9 Page</a>
+                </li>
+                <li className="list-unstyled">
+                    <a href={"/week-10"} className="text-blue-500 underline">Go to Week-10 Page</a>
+                </li>
             </ul>
         </div>
     );
