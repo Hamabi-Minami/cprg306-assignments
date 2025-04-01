@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react";
 import { useUserAuth } from "../_utils/auth-context";
-import ItemList from "@/app/week-8/item-list";
-import NewItemForm from "@/app/week-8/new-item";
-import MealIdeas from "@/app/week-8/meal-ideas";
+import ItemList from "@/app/week-10/shopping-list/item-list";
+import NewItemForm from "@/app/week-10/shopping-list/new-item";
+import MealIdeas from "@/app/week-10/shopping-list/meal-ideas";
 import { getItems, addItem, deleteItem } from "../_services/shopping-list-service";
 
 export default function Page() {
